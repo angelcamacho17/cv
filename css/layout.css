@@ -36,6 +36,7 @@ header {
    background: #161415 url(../images/thumb-1920-754582.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
+   background-attachment: fixed;
    text-align: center;
    overflow: hidden;
 }
@@ -62,12 +63,12 @@ header .banner-text h1 {
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
-   padding-top: 120px;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+   padding-top: -20px;
+   /*text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);*/
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
+   color: #fff;
    margin: 0 auto;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
@@ -81,6 +82,7 @@ header .banner-text hr {
    margin: 18px auto 24px auto;
    border-color: #2F2D2E;
    border-color: rgba(150, 150, 150, .1);
+   color : #000;
 }
 
 /* header social links */
@@ -181,6 +183,7 @@ ul#nav li a {
 
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #0ceb5a; }
+#nav-wrap > a.mobile-btn:ul#nav li.current a { color: #000; }
 
 
 /* ------------------------------------------------------------------ */

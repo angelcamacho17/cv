@@ -83,6 +83,18 @@ let resumeData = {
            "skillname":"Photoshop"
          }
     ],
+    "languagesDescription":"Languages",
+        "languages":[
+          {
+            "languagename":"Spanish"
+          },
+          {
+            "languagename":"English"
+          },
+          {
+            "languagename":"French"
+          }
+        ],
     "portfolio":[
       {
         "name":"AdminsegV3",

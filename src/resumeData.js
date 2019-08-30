@@ -1,94 +1,93 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "name": "Angel Camacho",
+    "role": "full-stack developer and software engineer student",
+    "linkedinId":"LinkedIn Id",
+    "skypeid": "skypeid",
+    "roleDescription": " Create, develop and promote top high quality products, regardless the effort it demands",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"http://linkedin.com/in/angel-camacho-479780125",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"https://github.com/angelcamacho17",
           "className":"fa fa-github"
-        },
-        {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
+    "aboutme":"I’m currently developing and maintaining a powerful resource management application for wholesale companies in cache language (like a mini SAP), and also independently full-stack developing a webapp with spring boot, mysql and react. As a freelancer, I collaborate and strongly improve an insurance administrator webapp, which was developed in php. In college I’ve achieved to make the best copy of a game (Laps Fuse) and the professor was so thrilled with my work that he ask me to tutor and help him in the programming course after that. I’m 21 years old and I study software engineering (3rd year).",
+    "address":"Cordoba, Argentina",
     "website":"https://rbhatia46.github.io",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
-      },
-      {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "UniversityName":"Universidad Siglo 21",
+        "specialization":"Software Engineer",
+        "MonthOfPassing":"Present",
+        "Achievements":""
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"SDP Belgium",
+        "specialization":"Software Programmer ",
+        "MonthOfEntry":"Oct",
+        "YearOfEntry":"2018",
+        "MonthOfLeaving":"Present",
+        "Achievements":"Developing and maintaining a powerful resource management application for wholesale companies.",
+        "Link":"https://www.softwareseleccion.com/sdp+distripack-p-195"
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
+        "CompanyName":"El Menu Virtual",
+        "specialization":"Web Developer",
+        "MonthOfEntry":"May",
+        "YearOfEntry":"2016",
+        "MonthOfLeaving":"Feb",
         "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-      }
+        "Achievements":"I worked as the webmaster and I was in charge of the maintenance, features and bug fixes. By the time I started worked in the webpage, I increase its visits a 30% applying a strong strategy of SEO",
+        "Link":"http://www.elmenuvirtual.com/"
+      },
+      {
+          "CompanyName":"Turismo de Playa",
+          "specialization":"Marketing Team",
+          "MonthOfEntry":"Aug",
+          "YearOfEntry":"2015",
+          "MonthOfLeaving":"Feb",
+          "YearOfLeaving":"2016",
+          "Achievements":"I was able to worked, along professionals in the area, in all the social media of the webpage, increasing the followers a 120% since the day I got in, reaching more than 70.000 followers on Instagram.",
+          "Link":"https://www.instagram.com/turismodeplaya/"
+       }
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"Skills",
     "skills":[
       {
-        "skillname":"HTML5"
-      },
-      {
-        "skillname":"CSS"
+        "skillname":"Java"
       },
       {
         "skillname":"Reactjs"
-      }
+      },
+      {
+        "skillname":"MySQL"
+      },
+      {
+          "skillname":"Spring"
+        },
+        {
+          "skillname":"JavaScript"
+        },
+        {
+          "skillname":"Php"
+        },
+         {
+           "skillname":"Photoshop"
+         }
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      },
-      {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
-      },
-      {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
-      },
-      {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"AdminsegV3",
+        "description":"Management System, perfect for Agencies, Brokers, Companies and every professional in the insurance industry.",
+        "link":"https://adminsegv3.com/"
       }
     ],
     "testimonials":[
@@ -100,7 +99,9 @@ let resumeData = {
         "description":"This is a sample testimonial",
         "name":"Some technical guy"
       }
-    ]
+    ],
+    "mail":"angelcamacho1708@gmail.com",
+    "phone":"01122506896"
   }
   
   export default resumeData

@@ -45,9 +45,12 @@ export default  class Resume extends Component {
                           <h3>{item.CompanyName}</h3>
                           <p className="info">
                           {item.specialization}
-                          <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
+                          <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving} - {item.MonthOfLeaving} {item.YearOfLeaving} </em></p>
                           <p>
                           {item.Achievements}
+                          </p>
+                          <p>
+                          <a href={item.Link} target="_blank">{item.Link}</a>
                           </p>
                        </div>
 

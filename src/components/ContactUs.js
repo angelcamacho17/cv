@@ -13,10 +13,10 @@ export default class ContactUs extends Component {
           </div>
           <div className="row">
             <aside className="eigth columns footer-widgets">
-              <div className="widget">
-                <h4>Linked in :
-                  {resumeData.linkedinId}
-                </h4>
+              <div >
+                <h4 style={{color:'#fff', fontFamily:'sans-serif '}}>Mail : <h6 style={{color:'#bfbebb', fontFamily:'sans-serif '}}>{resumeData.mail}</h6></h4>
+                <h4 style={{color:'#fff', fontFamily:'sans-serif '}}>Phone Number : <h6 style={{color:'#bfbebb', fontFamily:'sans-serif '}}>{resumeData.phone}</h6></h4>
+
               </div>
             </aside>
           </div>

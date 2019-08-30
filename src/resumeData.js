@@ -27,6 +27,8 @@ let resumeData = {
       {
         "UniversityName":"Universidad Siglo 21",
         "specialization":"Software Engineer",
+        "MonthOfEntry":"Mar",
+        "YearOfEntry":"2016",
         "MonthOfPassing":"Present",
         "Achievements":""
       }

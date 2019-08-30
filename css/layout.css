@@ -211,7 +211,7 @@ ul#nav li.current a { color: #F06000; }
    height: 120px;
    border-radius: 100%;
 }
-#about .contact-details { width: 41.66667%; }
+#about .contact-details { width: 41.66667%; padding-right: 5%; margin-top: 12px }
 #about .download {
    width: 58.33333%;
    padding-top: 6px;
@@ -238,45 +238,62 @@ ul#nav li.current a { color: #F06000; }
 #resume {
    background: #fff;
    padding-top: 90px;
+   overflow: hidden;
+}
+
+#skill{
+   padding-top: 50px;
+   background: #fff;
+   overflow: hidden;
+}
+
+#language{
+   padding-top: 50px;
+   background: #fff;
    padding-bottom: 72px;
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#resume a, #skill a, #language a, #resume a:visited, #skill a:visited, #language a:visited { color: #11ABB0; }
+#resume a:hover,#skill a:hover, #language a:hover, #resume a:focus,#skill a:focus, #language a:focus { color: #313131; }
 
-#resume h1 {
+#resume h1 ,#skill h1 ,#language h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-#resume h1 span {
+#resume h1 span,#skill h1 span,#language h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
-#resume h3 {
+#resume h3,#skill h3 ,#language h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
+#resume .header-col,#skill .header-col ,#language .header-col  { padding-top: 9px; }
+#resume .main-col,#skill .main-col,#language .main-col  { padding-right: 10%; }
 
-.education, .work {
+.education{
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
-#resume .info {
+.work, .language{
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+}
+
+#resume .info,#skill .info,#language .info{
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
 }
-#resume .info span {
+#resume .info span,#skill .info span,#language .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
-#resume .date {
+#resume .date,#skill .date,#language .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
@@ -295,6 +312,12 @@ ul#nav li.current a { color: #F06000; }
   	margin-top: 36px;
    list-style: none;
 }
+
+.bars .languages {
+  	margin-top: 36px;
+   list-style: none;
+}
+
 .bars li {
    position: relative;
   	margin-bottom: 60px;
@@ -356,6 +379,23 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
+
+.spanish {
+  	width: 100%;
+  	-moz-animation: html5 2s ease;
+  	-webkit-animation: html5 2s ease;
+}
+.english {
+  	width: 85%;
+  	-moz-animation: html5 2s ease;
+  	-webkit-animation: html5 2s ease;
+}
+.french {
+  	width: 30%;
+  	-moz-animation: html5 2s ease;
+  	-webkit-animation: html5 2s ease;
+}
+
 .spring {
   	width: 80%;
   	-moz-animation: jquery 2s ease;

@@ -10,6 +10,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -23,9 +25,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage": "https://angelcamacho17.github.io/resume",
-  "scripts":{
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-  }
+  "homepage": "https://angelcamacho17.github.io/resume"
 }

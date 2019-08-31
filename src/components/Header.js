@@ -6,7 +6,7 @@ export default class Header extends Component {
     return (
       <React.Fragment>
 
-      <header id="home" style={{background: '#161415 url(../images/thumb-1920-754582.jpg) no-repeat top center'}}>
+      <header id="home">
          <nav id="nav-wrap">
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
           <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>

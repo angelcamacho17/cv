@@ -37,7 +37,7 @@ header {
    background-image:url(../images/thumb-1920-754582.jpg);
    background-size: cover !important;
 	-webkit-background-size: cover !important;
-   background-attachment: fixed;
+   background-attachment: relative;
    text-align: center;
    overflow: hidden;
 }

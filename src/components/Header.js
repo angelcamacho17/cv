@@ -6,7 +6,7 @@ export default class Header extends Component {
     return (
       <React.Fragment>
 
-      <header id="home">
+      <header id="home" style={{background: '#161415 url(../images/thumb-1920-754582.jpg) no-repeat top center'}}>
          <nav id="nav-wrap">
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
           <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
@@ -49,7 +49,6 @@ export default class Header extends Component {
          <p className="scrolldown">
             <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
          </p>
-
       </header>
       </React.Fragment>
     );

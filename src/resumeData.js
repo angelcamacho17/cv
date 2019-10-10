@@ -1,7 +1,7 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Angel Camacho",
-    "role": "full-stack developer and software engineer student",
+    "role": "Full-stack developer and software engineer student",
     "linkedinId":"LinkedIn Id",
     "skypeid": "skypeid",
     "roleDescription": " Create, develop and promote top high quality products, regardless the effort it demands",
@@ -17,7 +17,7 @@ let resumeData = {
           "className":"fa fa-github"
         }
       ],
-    "aboutme":"I’m currently developing and maintaining a powerful resource management application for wholesale companies in cache language (like a mini SAP), and also independently full-stack developing a webapp with spring boot, mysql and react. As a freelancer, I collaborate and strongly improve an insurance administrator webapp, which was developed in php. In college I’ve achieved to make the best copy of a game (Laps Fuse) and the professor was so thrilled with my work that he ask me to tutor and help him in the programming course after that. I’m 21 years old and I study software engineering (3rd year).",
+    "aboutme":"Expirience bilingual software programmer, developing and maintaining a powerful resource management application for wholesale companies in cache language (like a mini SAP), and also independently full-stack developing a webapp with spring boot, mysql and react. As a freelancer, I collaborate and strongly improve an insurance administrator webapp. I’m 21 years old and I study software engineering (3rd year). ",
     "nationality":"Venezuelan",
     "address":"Cordoba, Argentina",
     "phone":"+54 01122506896",

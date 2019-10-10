@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "main.css": "/resume/static/css/main.b84c7237.chunk.css",
   "main.js": "/resume/static/js/main.fd5eac14.chunk.js",
   "main.js.map": "/resume/static/js/main.fd5eac14.chunk.js.map",
@@ -9,5 +10,17 @@
   "static/css/main.b84c7237.chunk.css.map": "/resume/static/css/main.b84c7237.chunk.css.map",
   "index.html": "/resume/index.html",
   "precache-manifest.f19977d0b2a775029be7f820d1581c69.js": "/resume/precache-manifest.f19977d0b2a775029be7f820d1581c69.js",
+=======
+  "main.css": "/resume/static/css/main.d97dd3db.chunk.css",
+  "main.js": "/resume/static/js/main.d6160717.chunk.js",
+  "main.js.map": "/resume/static/js/main.d6160717.chunk.js.map",
+  "static/js/1.a7194b2d.chunk.js": "/resume/static/js/1.a7194b2d.chunk.js",
+  "static/js/1.a7194b2d.chunk.js.map": "/resume/static/js/1.a7194b2d.chunk.js.map",
+  "runtime~main.js": "/resume/static/js/runtime~main.18bea22a.js",
+  "runtime~main.js.map": "/resume/static/js/runtime~main.18bea22a.js.map",
+  "static/css/main.d97dd3db.chunk.css.map": "/resume/static/css/main.d97dd3db.chunk.css.map",
+  "index.html": "/resume/index.html",
+  "precache-manifest.d642c87a0fd0a09f522bbfd7a9c37126.js": "/resume/precache-manifest.d642c87a0fd0a09f522bbfd7a9c37126.js",
+>>>>>>> 5b3d6d6f1d7a320d1cf532ed04ac4476be36cc39
   "service-worker.js": "/resume/service-worker.js"
 }

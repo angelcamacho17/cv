@@ -18,12 +18,17 @@ let resumeData = {
         }
       ],
     "aboutme":"Expirience bilingual software programmer, developing and maintaining a powerful resource management application for wholesale companies in cache language (like a mini SAP), and also independently full-stack developing a webapp with spring boot, mysql and react. As a freelancer, I collaborate and strongly improve an insurance administrator webapp. I’m 21 years old and I study software engineering (3rd year). ",
+    "nationality":"Venezuelan",
     "address":"Cordoba, Argentina",
-    "website":"https://rbhatia46.github.io",
+    "phone":"+54 01122506896",
+    "age":"21",
+    "mail":"angelcamacho1708@gmail.com",
     "education":[
       {
         "UniversityName":"Universidad Siglo 21",
         "specialization":"Software Engineer",
+        "MonthOfEntry":"Mar",
+        "YearOfEntry":"2016",
         "MonthOfPassing":"Present",
         "Achievements":""
       }
@@ -83,6 +88,18 @@ let resumeData = {
            "skillname":"Photoshop"
          }
     ],
+    "languagesDescription":"Languages",
+        "languages":[
+          {
+            "languagename":"Spanish"
+          },
+          {
+            "languagename":"English"
+          },
+          {
+            "languagename":"French"
+          }
+        ],
     "portfolio":[
       {
         "name":"AdminsegV3",

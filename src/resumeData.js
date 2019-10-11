@@ -120,5 +120,5 @@ let resumeData = {
     "mail":"angelcamacho1708@gmail.com",
     "phone":"01122506896"
   }
-  
-  export default resumeData
+
+  export default resumeData;

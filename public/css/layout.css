@@ -33,10 +33,11 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/thumb-1920-754582.jpg) no-repeat top center;
+   background: no-repeat top center;
+   background-image:url(../images/thumb-1920-754582.jpg);
    background-size: cover !important;
 	-webkit-background-size: cover !important;
-   background-attachment: fixed;
+   background-attachment: relative;
    text-align: center;
    overflow: hidden;
 }
@@ -679,7 +680,7 @@ call-to-action .button {
    color: #0D0D0D;
 }
 #call-to-action p span {
-	font-family: 'opensans-semibold', sans-serif; 
+	font-family: 'opensans-semibold', sans-serif;
 	color: #D8D8D8;
 }
 
@@ -703,7 +704,7 @@ call-to-action .button {
    padding-bottom: 66px;
 }
 #testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;   
+   font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
@@ -1053,4 +1054,3 @@ footer .social-links li:first-child { color: #0ceb5a; margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0ceb5a; }
-

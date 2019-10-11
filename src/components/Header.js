@@ -24,7 +24,7 @@ export default class Header extends Component {
 
          <div className="row banner">
             <div className="banner-text">
-               <h1 className="responsive-headline">{resumeData.name}.</h1>
+               <h1 className="responsive-headline">{resumeData.name}</h1>
                <hr/>
                <h2 style={{color:'#fff', fontFamily:'sans-serif '}}>{resumeData.role}.</h2>
                <h4 style={{color:'#bfbebb', fontFamily:'sans-serif '}}>{resumeData.roleDescription}.
@@ -49,7 +49,6 @@ export default class Header extends Component {
          <p className="scrolldown">
             <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
          </p>
-
       </header>
       </React.Fragment>
     );
